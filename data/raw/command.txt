@@ -1,0 +1,31 @@
+   64  pip install kaggle
+   65  export KAGGLE_API_TOKEN=KGAT_5bd7536ea6b489e2dbe274440f4527b9
+   66  kaggle competition list
+   67  cd
+   68  cd /home/kingpin/.config/kaggle/
+   69  echo '{"username":"steffones2482450","key":"KGAT_5bd7536ea6b489e2dbe274440f4527b9"}' > ~/.kaggle/kaggle.json
+   70  echo '{"username":"steffones2482450","key":"KGAT_5bd7536ea6b489e2dbe274440f4527b9"}' > kaggle.json
+   71  ls
+   72* cd ./kaggleprojects/
+   73  kaggle competition list
+   74  cd
+   75  cd /home/kingpin/.config/kaggle/
+   76  chmod 600 ./kaggle.json
+   77  cd
+   78  cd ./kaggleprojects/
+   79  kaggle competition list
+   80  ls
+   81  cd ./Projects_VS_Code/
+   82  cd ./Kaggle_Ames_housing/
+   83  cd data
+   84  cd raw
+   85  kaggle --version
+   86  kaggle competitions list
+   87  kaggle competitions download -c house-prices-advanced-regression-techniques
+   88  ls
+   89  ./house-prices-advanced-regression-techniques.zip --unzip
+   90  unzip ./house-prices-advanced-regression-techniques.zip
+   91  ls
+   92  clear
+   93  history | tail -n 30
+   94  history | tail -n 31 >command.txt
